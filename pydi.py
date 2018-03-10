@@ -120,7 +120,7 @@ class PyDI(object):
             if len(output) > 0:
                 with open(file_basename + "_" + date_string + '.csv', 'a') as f:
                     writer = csv.writer(f)
-                    for record in list_of_json_object:
+                    for record in self.filter_records:
                         writer.writerow(record.values())
             else:
                 with open(file_basename + "_" + date_string + '.csv', 'w') as f:
