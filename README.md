@@ -5,7 +5,7 @@ A Python API for accessing DrillingInfo
 
 ## Example Usage
 
-Define your DrillingInfo credentials as operating system environment variables, e.g. in `bash`
+Define your DrillingInfo credentials as operating system environment variables, e.g. in `bash` (**note:** these are not real keys)
 
 ```bash
 export CLIENT_ID="12345-direct-access"
