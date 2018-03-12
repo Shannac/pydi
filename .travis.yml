@@ -17,3 +17,5 @@ install:
 - source activate pydi
 script:
 - coverage run test.py
+after_success:
+- coverage report -m
