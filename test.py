@@ -9,22 +9,23 @@
 # the pydi.py file
 
 import unittest
+import os
 
 from pydi import PyDI
 
 class TestPyDI(unittest.TestCase):
 
     def setUp(self):
-        self.client_id = "12976-direct-access"
-        self.client_secret = "b8e7487e-9411-4177-be96-e98ec7877be4"
-        self.api_key = "facb5adc983fed80599157a8a33972cf"
+        self.client_id = os.environ['CLIENT_ID']
+        self.client_secret = os.environ['CLIENT_SECRET']
+        self.api_key = os.environ['API_KEY']
         self.di = PyDI(self.client_id, self.client_secret, self.api_key)
 
     def test_encode_creditials(self):
 
         credentials = self.di.encode_credentials(self.client_id, self.client_secret)
 
-        self.assertEqual(credentials, 'Basic MTI5NzYtZGlyZWN0LWFjY2VzczpiOGU3NDg3ZS05NDExLTQxNzctYmU5Ni1lOThlYzc4NzdiZTQ=')
+        self.assertEqual(credentials, os.environ['CREDS'])
 
     def test_get_token_returns_string(self):
 
