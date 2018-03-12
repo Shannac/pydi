@@ -25,7 +25,7 @@ class TestPyDI(unittest.TestCase):
 
         credentials = self.di.encode_credentials(self.client_id, self.client_secret)
 
-        self.assertTrue(isinstance(credentials, str)
+        self.assertTrue(isinstance(credentials, str))
 
     def test_get_token_returns_string(self):
 
