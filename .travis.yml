@@ -16,4 +16,4 @@ install:
 - conda env create -f environment.yml
 - source activate pydi
 script:
-- nose2
+- coverage run test.py
