@@ -2,8 +2,7 @@
 
 A Python API for accessing DrillingInfo
 
-[![Build Status](https://travis-ci.com/johntfoster/pydi.svg?token=SnMGq692xXXqxzyE6QSj&branch=master)](https://travis-ci.com/johntfoster/pydi)
-
+[![Build Status](https://travis-ci.org/johntfoster/pydi.svg?branch=master)](https://travis-ci.org/johntfoster/pydi)
 
 ## Example Usage
 
