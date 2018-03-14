@@ -2,7 +2,8 @@
 
 A Python API for accessing DrillingInfo
 
-[![Build Status](https://travis-ci.org/johntfoster/pydi.svg?branch=master)](https://travis-ci.org/johntfoster/pydi) [![Coverage Status](https://coveralls.io/repos/github/johntfoster/pydi/badge.svg?branch=master)](https://coveralls.io/github/johntfoster/pydi?branch=master)
+[![Build Status](https://travis-ci.org/johntfoster/pydi.svg?branch=master)](https://travis-ci.org/johntfoster/pydi) [![Coverage Status](https://coveralls.io/repos/github/johntfoster/pydi/badge.svg?branch=master)](https://coveralls.io/github/johntfoster/pydi?branch=master) [![Documentation Status](https://readthedocs.org/projects/pydi/badge/?version=latest)](http://pydi.readthedocs.io/en/latest/?badge=latest)
+ 
 
 ## Example Usage
 
