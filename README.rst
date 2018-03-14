@@ -26,7 +26,6 @@ A simple Python script that gets 1000 producing entities from the state of Texas
 
 .. code-block:: python
 
-    :linenos:
     import os
     from pydi import PyDI
 
