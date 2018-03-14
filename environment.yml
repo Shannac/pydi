@@ -8,3 +8,6 @@ dependencies:
     - coverage==4.5.1
     - nose2==0.7.4
     - coveralls==1.3.0
+    - sphinx==1.7.1
+    - sphinx-autobuild==0.7.1
+    - recommonmark==0.4.0
