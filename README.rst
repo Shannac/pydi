@@ -1,4 +1,4 @@
-pydi
+PyDI
 ****
 
 A Python API for accessing DrillingInfo
