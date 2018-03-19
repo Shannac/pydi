@@ -89,8 +89,15 @@ class PyDI(object):
 
 
     def format_url(self, data_service, list_of_filter_tuples):
-        """ 
-            Constructs the request url based the desired resource, and the request parameters (filters)
+        """Constructs the request url based the desired resource, and the request parameters (filters)
+
+        Args:
+            data_service (str): Request catalog string
+            list_of_filter_tuples (str): Request parameters
+
+        Returns:
+            (str): Formattting string containing request url.
+
         """
         url = self.root_url + "/direct-access/"
         int_string = url + data_service + "?"
